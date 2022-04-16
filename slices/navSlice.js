@@ -1,4 +1,4 @@
-import { CreateSlice } from "@reduxjs/toolkit";
+import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
   origin: null,
@@ -6,7 +6,7 @@ const initialState = {
   travelTimeInformation: null,
 };
 
-export const navSlice = CreateSlice({
+export const navSlice = createSlice({
   name: "nav",
   initialState,
 
